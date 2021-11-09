@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1D80DA27359FE4001EF817 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80D927359FE4001EF817 /* MainView.swift */; };
+		EE1D80DC27367567001EF817 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80DB27367567001EF817 /* Icon.swift */; };
+		EE1D80E22736924B001EF817 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80E12736924B001EF817 /* HomeView.swift */; };
+		EE1D80E42736925F001EF817 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80E32736925F001EF817 /* SkillsView.swift */; };
+		EE1D80E62736926C001EF817 /* PathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80E52736926C001EF817 /* PathsView.swift */; };
+		EE1D80E82736927C001EF817 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D80E72736927C001EF817 /* SettingsView.swift */; };
+		EE1D80EB27369A12001EF817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE897506272153E400DBA36D /* Preview Assets.xcassets */; };
+		EE1D80EC27369A17001EF817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE897503272153E400DBA36D /* Assets.xcassets */; };
+		EE1D810927371CD5001EF817 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D810827371CD5001EF817 /* Path.swift */; };
+		EE1D810B27371CE3001EF817 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D810A27371CE3001EF817 /* Skill.swift */; };
+		EE1D810D27371D08001EF817 /* PathCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D810C27371D08001EF817 /* PathCategory.swift */; };
 		EE897500272153E300DBA36D /* TechPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8974FF272153E300DBA36D /* TechPathApp.swift */; };
-		EE897502272153E300DBA36D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE897501272153E300DBA36D /* ContentView.swift */; };
-		EE897504272153E400DBA36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE897503272153E400DBA36D /* Assets.xcassets */; };
-		EE897507272153E400DBA36D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE897506272153E400DBA36D /* Preview Assets.xcassets */; };
 		EE897511272153E500DBA36D /* TechPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE897510272153E500DBA36D /* TechPathTests.swift */; };
 		EE89751B272153E500DBA36D /* TechPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89751A272153E500DBA36D /* TechPathUITests.swift */; };
 		EE89751D272153E500DBA36D /* TechPathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89751C272153E500DBA36D /* TechPathUITestsLaunchTests.swift */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1D80D927359FE4001EF817 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EE1D80DB27367567001EF817 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		EE1D80E12736924B001EF817 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE1D80E32736925F001EF817 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		EE1D80E52736926C001EF817 /* PathsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsView.swift; sourceTree = "<group>"; };
+		EE1D80E72736927C001EF817 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE1D810827371CD5001EF817 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		EE1D810A27371CE3001EF817 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		EE1D810C27371D08001EF817 /* PathCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCategory.swift; sourceTree = "<group>"; };
 		EE8974FC272153E300DBA36D /* TechPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8974FF272153E300DBA36D /* TechPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPathApp.swift; sourceTree = "<group>"; };
-		EE897501272153E300DBA36D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE897503272153E400DBA36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE897506272153E400DBA36D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE89750C272153E500DBA36D /* TechPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +87,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1D80DD2736920C001EF817 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D80E12736924B001EF817 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE1D80DE27369212001EF817 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D80E32736925F001EF817 /* SkillsView.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
+		EE1D80DF2736921E001EF817 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D80E52736926C001EF817 /* PathsView.swift */,
+			);
+			path = Paths;
+			sourceTree = "<group>";
+		};
+		EE1D80E027369224001EF817 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D80E72736927C001EF817 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE1D810727371CBC001EF817 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D810827371CD5001EF817 /* Path.swift */,
+				EE1D810A27371CE3001EF817 /* Skill.swift */,
+				EE1D810C27371D08001EF817 /* PathCategory.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EE1D810E27371DC7001EF817 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D811127371F5D001EF817 /* Application */,
+				EE1D80DD2736920C001EF817 /* Home */,
+				EE1D80DF2736921E001EF817 /* Paths */,
+				EE1D80E027369224001EF817 /* Settings */,
+				EE1D80DE27369212001EF817 /* Skills */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EE1D810F27371E3E001EF817 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE1D811127371F5D001EF817 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D80D927359FE4001EF817 /* MainView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		EE8974F3272153E300DBA36D = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +180,11 @@
 			isa = PBXGroup;
 			children = (
 				EE8974FF272153E300DBA36D /* TechPathApp.swift */,
-				EE897501272153E300DBA36D /* ContentView.swift */,
+				EE1D80DB27367567001EF817 /* Icon.swift */,
 				EE897503272153E400DBA36D /* Assets.xcassets */,
+				EE1D810F27371E3E001EF817 /* Data */,
+				EE1D810727371CBC001EF817 /* Domain */,
+				EE1D810E27371DC7001EF817 /* Presentation */,
 				EE897505272153E400DBA36D /* Preview Content */,
 			);
 			path = TechPath;
@@ -231,8 +319,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE897507272153E400DBA36D /* Preview Assets.xcassets in Resources */,
-				EE897504272153E400DBA36D /* Assets.xcassets in Resources */,
+				EE1D80EC27369A17001EF817 /* Assets.xcassets in Resources */,
+				EE1D80EB27369A12001EF817 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE897502272153E300DBA36D /* ContentView.swift in Sources */,
+				EE1D80E42736925F001EF817 /* SkillsView.swift in Sources */,
+				EE1D80E82736927C001EF817 /* SettingsView.swift in Sources */,
+				EE1D810927371CD5001EF817 /* Path.swift in Sources */,
+				EE1D810B27371CE3001EF817 /* Skill.swift in Sources */,
+				EE1D80E62736926C001EF817 /* PathsView.swift in Sources */,
+				EE1D80DA27359FE4001EF817 /* MainView.swift in Sources */,
+				EE1D80DC27367567001EF817 /* Icon.swift in Sources */,
+				EE1D80E22736924B001EF817 /* HomeView.swift in Sources */,
+				EE1D810D27371D08001EF817 /* PathCategory.swift in Sources */,
 				EE897500272153E300DBA36D /* TechPathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TechPath/Preview Content\"";
@@ -427,7 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TechPath/Preview Content\"";
@@ -457,7 +555,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

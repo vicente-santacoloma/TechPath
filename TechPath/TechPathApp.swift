@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TechPathApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
