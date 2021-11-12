@@ -1,0 +1,19 @@
+{
+    "Programming Languages": [
+        "Swift",
+        "Objective-C"
+    ],
+    "Foundation": [
+        "SwiftUI",
+        "UIKit",
+        "Core Animation",
+        "Core Data",
+        "Core Graphics"
+    ],
+    "Development Tools": [
+        "Xcode",
+        "Git",
+        "GitHub",
+        "Fastlane"
+    ]
+}

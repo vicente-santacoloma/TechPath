@@ -1,0 +1,37 @@
+[
+    {
+        "name": "React.js",
+        "imageName": "React",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "jQuery",
+        "imageName": "jQuery",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Express",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Angular.js",
+        "imageName": "Angular",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Vue.js",
+        "imageName": "Vue",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Nuxt.js",
+        "imageName": "Nuxt",
+        "hasCompleted": false,
+        "topics": []
+    }
+]

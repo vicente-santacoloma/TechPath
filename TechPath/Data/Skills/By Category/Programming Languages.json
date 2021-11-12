@@ -1,0 +1,249 @@
+[
+    {
+        "name": "C",
+        "imageName": "C",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "C++",
+        "imageName": "C++",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "C#",
+        "imageName": "C#",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Go",
+        "imageName": "Go",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Haskell",
+        "imageName": "Haskell",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Kotlin",
+        "imageName": "Kotlin",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Java",
+        "imageName": "Java",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "JavaScript",
+        "imageName": "JavaScript",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Python",
+        "imageName": "Python",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Objective-C",
+        "imageName": "Objective-C",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Ruby",
+        "imageName": "Ruby",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Rust",
+        "imageName": "Rust",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Swift",
+        "imageName": "Swift",
+        "about": "Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.",
+        "hasCompleted": false,
+        "topics": [
+            {
+                "name": "Basic Operators",
+                "hasCompleted": false
+            },
+            {
+                "name": "Strings and Characters",
+                "hasCompleted": false
+            },
+            {
+                "name": "Collection Types",
+                "hasCompleted": false
+            },
+            {
+                "name": "Control Flow",
+                "hasCompleted": false
+            },
+            {
+                "name": "Functions",
+                "hasCompleted": false
+            },
+            {
+                "name": "Closures",
+                "hasCompleted": false
+            },
+            {
+                "name": "Enumerations",
+                "hasCompleted": false
+            },
+            {
+                "name": "Structures and Classes",
+                "hasCompleted": false
+            },
+            {
+                "name": "Properties",
+                "hasCompleted": false
+            },
+            {
+                "name": "Methods",
+                "hasCompleted": false
+            },
+            {
+                "name": "Subscripts",
+                "hasCompleted": false
+            },
+            {
+                "name": "Inheritance",
+                "hasCompleted": false
+            },
+            {
+                "name": "Subscripts",
+                "hasCompleted": false
+            },
+            {
+                "name": "Initialization",
+                "hasCompleted": false
+            },
+            {
+                "name": "Deinitialization",
+                "hasCompleted": false
+            },
+            {
+                "name": "Optional Chaining",
+                "hasCompleted": false
+            },
+            {
+                "name": "Error Handling",
+                "hasCompleted": false
+            },
+            {
+                "name": "Concurrency",
+                "hasCompleted": false
+            },
+            {
+                "name": "Type Casting",
+                "hasCompleted": false
+            },
+            {
+                "name": "Nested Types",
+                "hasCompleted": false
+            },
+            {
+                "name": "Extensions",
+                "hasCompleted": false
+            },
+            {
+                "name": "Protocols",
+                "hasCompleted": false
+            },
+            {
+                "name": "Generics",
+                "hasCompleted": false
+            },
+            {
+                "name": "Opaque Types",
+                "hasCompleted": false
+            },
+            {
+                "name": "Automatic Reference Counting",
+                "hasCompleted": false
+            },
+            {
+                "name": "Memory Safety",
+                "hasCompleted": false
+            },
+            {
+                "name": "Access Control",
+                "hasCompleted": false
+            },
+            {
+                "name": "Advanced Operators",
+                "hasCompleted": false
+            }
+        ],
+        "resources": [
+            {
+                "name": "Swift.org",
+                "imageName": "Swift",
+                "url": "https://www.swift.org/"
+            },
+            {
+                "name": "Hacking with Swift",
+                "imageName": "",
+                "url": "https://www.hackingwithswift.com/"
+            },
+            {
+                "name": "Become an iOS Developer",
+                "imageName": "Udacity",
+                "url": "https://www.udacity.com/course/ios-developer-nanodegree--nd003"
+            }
+        ],
+        "paths": [
+            {
+                "name": "iOS Developer",
+                "imageName": "Apple",
+                "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+                "badges": [
+                    {
+                        "symbol": "applelogo",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "iphone",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "ipad",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "desktopcomputer",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "laptopcomputer",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "applewatch",
+                        "hasAchieved": false
+                    },
+                    {
+                        "symbol": "appletv",
+                        "hasAchieved": false
+                    }
+                ],
+                "hasStarred": false
+            }
+        ]
+    }
+]

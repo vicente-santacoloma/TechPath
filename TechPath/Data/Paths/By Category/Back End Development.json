@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Rust Developer",
+        "imageName": "Rust",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Go Developer",
+        "imageName": "Go",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "C# Developer",
+        "imageName": "C#",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Java Developer",
+        "imageName": "Java",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Python Developer",
+        "imageName": "Python",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Ruby Developer",
+        "imageName": "Ruby",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Haskell Developer",
+        "imageName": "Haskell",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "C++ Developer",
+        "imageName": "C++",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    }
+]

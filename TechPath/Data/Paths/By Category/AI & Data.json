@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Data Scientist",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Data Engineer",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Data Analyst",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Data Analyst",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Machine Learning Engineer",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+]

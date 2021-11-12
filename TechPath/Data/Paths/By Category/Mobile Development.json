@@ -1,0 +1,66 @@
+[
+    {
+        "name": "iOS Developer",
+        "imageName": "Apple",
+        "about": "Develop native apps for iOS, iPadOS, macOS, watchOS and tvOS using Swift or Objective-C.",
+        "badges": [
+            {
+                "symbol": "swift",
+                "hasAchieved": true
+            },
+            {
+                "symbol": "applelogo",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "iphone",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "ipad",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "desktopcomputer",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "laptopcomputer",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "applewatch",
+                "hasAchieved": false
+            },
+            {
+                "symbol": "appletv",
+                "hasAchieved": false
+            }
+        ],
+        "hasStarred": false
+    },
+    {
+        "name": "Android Developer",
+        "imageName": "Android",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Flutter Developer",
+        "imageName": "Flutter",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "React Native Developer",
+        "imageName": "React",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Xamarin Developer",
+        "imageName": "Xamarin",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    }
+]

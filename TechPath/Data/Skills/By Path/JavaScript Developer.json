@@ -1,0 +1,18 @@
+{
+    "Programming Languages": [
+        "JavaScript"
+    ],
+    "Web Frameworks": [
+        "React.js",
+        "jQuery",
+        "Express",
+        "Angular.js",
+        "Vue.js",
+    ],
+    "Development Tools": [
+        "Git",
+        "Jenkins",
+        "WebStorm",
+        "Visual Studio Code"
+    ]
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Git",
+        "imageName": "Git",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "GitHub",
+        "imageName": "GitHub",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "GitLab",
+        "imageName": "GitLab",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Bitbucket",
+        "imageName": "Bitbucket",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Jira",
+        "imageName": "Jira",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Confluence",
+        "imageName": "Confluence",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Trello",
+        "imageName": "Trello",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Jenkins",
+        "imageName": "Jenkins",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Fastlane",
+        "imageName": "Fastlane",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Xcode",
+        "imageName": "Xcode",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "IntelliJ IDEA",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Visual Studio",
+        "imageName": "Visual Studio",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Visual Studio Code",
+        "imageName": "Visual Studio Code",
+        "hasCompleted": false,
+        "topics": []
+    }
+]

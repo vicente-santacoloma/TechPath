@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="132px" viewBox="0 0 129 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice 1</title>
+    <defs>
+        <linearGradient x1="62.8448182%" y1="47.770202%" x2="40.8230957%" y2="81.6533975%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="0%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.4650545%" y1="51.7569855%" x2="59.3456016%" y2="17.9948239%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="0%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jira" transform="translate(1.000000, 0.000000)" fill-rule="nonzero">
+            <path d="M126.033579,62.2516713 L69.2783811,5.49647375 L63.7778041,0 L1.52624377,62.2516713 C-0.508747924,64.2922079 -0.508747924,67.5955484 1.52624377,69.6319817 L40.5583826,108.66279 L63.7778041,131.887756 L126.033579,69.6319817 C128.070012,67.5955484 128.070012,64.2922079 126.033579,62.2516713 Z M63.7778041,85.4378232 L44.2832491,65.944599 L63.7778041,46.4443881 L83.2765733,65.944599 L63.7778041,85.4378232 Z" id="path8005" fill="#2684FF"></path>
+            <path d="M63.7778041,46.4443881 C51.014802,33.675841 50.9495936,12.9960004 63.6419532,0.152485754 L20.9723361,42.805579 L44.1973026,66.0305455 L63.7778041,46.4443881 Z" id="path8015" fill="url(#linearGradient-1)"></path>
+            <path d="M83.3306919,65.8891496 L63.7778041,85.4378232 C69.9396703,91.5940335 73.4052556,99.9502528 73.4052556,108.66279 C73.4052556,117.375216 69.9396703,125.72589 63.7778041,131.887756 L106.550113,89.1141161 L83.3306919,65.8891496 Z" id="path8025" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

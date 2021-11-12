@@ -1,0 +1,20 @@
+[
+    {
+        "name": "JavaScript Developer",
+        "imageName": "JavaScript",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Ruby on Rails Developer",
+        "imageName": "Ruby on Rails",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    },
+    {
+        "name": "Django Developer",
+        "imageName": "Django",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat lectus, dictum vitae ornare vel, finibus vel est.",
+        "hasStarred": false
+    }
+]

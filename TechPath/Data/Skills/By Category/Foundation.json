@@ -1,0 +1,28 @@
+[
+    {
+        "name": "SwiftUI",
+        "imageName": "SwiftUI",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "UIKit",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Core Animation",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Core Data",
+        "hasCompleted": false,
+        "topics": []
+    },
+    {
+        "name": "Core Graphics",
+        "hasCompleted": false,
+        "topics": []
+    }
+]
