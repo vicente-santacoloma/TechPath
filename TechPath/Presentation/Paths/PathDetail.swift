@@ -34,7 +34,9 @@ struct PathDetail: View {
                         makeAboutSection(text: about)
                     }
                     
-                    if let categorySkills = path.categorySkills, !categorySkills.isEmpty {
+                    let categorySkills = path.categorySkills
+                    
+                    if !categorySkills.isEmpty {
                         
                         Divider()
                         
