@@ -8,17 +8,12 @@
 import SwiftUI
 
 struct SkillDetail: View {
-    
     @ObservedObject var skill: Skill
     
     var body: some View {
-        
         GeometryReader { geometry in
-            
             ScrollView {
-                
                 LazyVStack(alignment: .leading, spacing: 20) {
-                    
                     HeroView(
                         element: skill,
                         progress: skill.quantity,
@@ -37,28 +32,24 @@ struct SkillDetail: View {
                     .tint(skill.hasCompleted ? .green : .blue)
                     
                     if let about = skill.about, !about.isEmpty {
-                        
                         Divider()
                         
                         SectionText(header: "About", text: about)
                     }
                     
                     if let resources = skill.resources, !resources.isEmpty {
-                        
                         Divider()
                         
                         makeResourcesSection(resources: resources)
                     }
                     
                     if let paths = skill.paths, !paths.isEmpty {
-                        
                         Divider()
                         
                         makePathsSection(paths: paths)
                     }
                     
                     if !skill.topics.isEmpty {
-                        
                         Divider()
                         
                         makeTopicsSection()
@@ -73,15 +64,10 @@ struct SkillDetail: View {
     }
     
     @ViewBuilder private func makeTopicsSection() -> some View {
-
         Section {
-            
             LazyVStack(alignment: .leading, spacing: 10) {
-                
                 ForEach(0..<skill.topics.count) { topicIndex in
-                    
                     Button {
-                        
                         skill.topics[topicIndex].hasCompleted.toggle()
                         
                         let topicsCompleted = Double(skill.topics.filter({ $0.hasCompleted }).count)
@@ -90,7 +76,6 @@ struct SkillDetail: View {
                         skill.hasCompleted = (topicsCompleted == topicsTotal)
                         
                     } label: {
-                        
                         Text(skill.topics[topicIndex].name)
                             .font(.headline)
                             .foregroundColor(.white)
@@ -113,13 +98,9 @@ struct SkillDetail: View {
     }
     
     @ViewBuilder private func makeResourcesSection(resources: [Skill.Resource]) -> some View {
-
         Section {
-            
             LazyVStack(spacing: 10) {
-                
                 ForEach(resources) { resource in
-                    
                     Link(destination: resource.url!) {
                         ImageTextCell(
                             imageName: resource.imageName,
@@ -139,11 +120,8 @@ struct SkillDetail: View {
     
     @ViewBuilder private func makePathsSection(paths: [Path]) -> some View {
         Section {
-            
             LazyVStack(spacing: 10) {
-                
                 ForEach(paths) { path in
-                    
                     NavigationLink(destination:  Text(path.name)) {
                         ImageTextCell(
                             imageName: path.imageName,
@@ -163,11 +141,9 @@ struct SkillDetail: View {
 }
 
 struct SkillView_Previews: PreviewProvider {
-    
     private static let repository: Repository = LocalRepository()
     
     static var previews: some View {
-        
         let skills = repository.getSkills(by: "Programming Languages")
         let skill = skills.last!
         

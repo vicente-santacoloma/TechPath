@@ -8,7 +8,6 @@
 import Foundation
 
 class CategoryPaths: ObservableObject, Codable {
-    
     let category: Path.Category
     @Published var paths: [Path]
     
@@ -22,7 +21,6 @@ class CategoryPaths: ObservableObject, Codable {
     }
     
     required init(from decoder: Decoder) throws {
-        
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         category = try container.decode(Path.Category.self, forKey: .category)
@@ -30,7 +28,6 @@ class CategoryPaths: ObservableObject, Codable {
     }
     
     func encode(to encoder: Encoder) throws {
-        
         var container = encoder.container(keyedBy: CodingKeys.self)
 
         try container.encode(category, forKey: .category)

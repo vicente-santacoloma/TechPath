@@ -8,9 +8,7 @@
 import Foundation
 
 extension Path {
-    
     class Badge: ObservableObject, Codable {
-        
         let symbol: String
         @Published var hasAchieved: Bool
         
@@ -24,7 +22,6 @@ extension Path {
         }
         
         required init(from decoder: Decoder) throws {
-            
             let container = try decoder.container(keyedBy: CodingKeys.self)
             
             symbol = try container.decode(String.self, forKey: .symbol)
@@ -32,7 +29,6 @@ extension Path {
         }
         
         func encode(to encoder: Encoder) throws {
-            
             var container = encoder.container(keyedBy: CodingKeys.self)
 
             try container.encode(symbol, forKey: .symbol)

@@ -8,7 +8,6 @@
 import Foundation
 
 class CategorySkills: ObservableObject, Codable {
-    
     var category: Skill.Category
     @Published var skills: [Skill]
     
@@ -30,7 +29,6 @@ class CategorySkills: ObservableObject, Codable {
     }
     
     required init(from decoder: Decoder) throws {
-        
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         category = try container.decode(Skill.Category.self, forKey: .category)
@@ -38,7 +36,6 @@ class CategorySkills: ObservableObject, Codable {
     }
     
     func encode(to encoder: Encoder) throws {
-        
         var container = encoder.container(keyedBy: CodingKeys.self)
 
         try container.encode(category, forKey: .category)

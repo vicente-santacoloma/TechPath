@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MainView: View {
-    
     @State var categoryPaths: [CategoryPaths] = Self.repository.getCategoryPaths()
     @State var categorySkills: [CategorySkills] = Self.repository.getCategorySkills()
     
@@ -16,7 +15,6 @@ struct MainView: View {
     
     var body: some View {
         TabView {
-            
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: Icon.TabBar.home.rawValue)
@@ -43,7 +41,6 @@ struct MainView: View {
 }
 
 struct MainView_Previews: PreviewProvider {
-    
     static var previews: some View {
         MainView()
             .preferredColorScheme(.dark)

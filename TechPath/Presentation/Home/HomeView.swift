@@ -8,21 +8,16 @@
 import SwiftUI
 
 struct HomeView: View {
-    
     @State private var paths = Self.repository.getStarredPaths()
     
     private static let repository: Repository = LocalRepository()
     
     var body: some View {
-        
         NavigationView {
-            
             GeometryReader { geometry in
-                
                 if paths.isEmpty {
                     makeImageTextView(geometry: geometry)
                 } else {
-                    
                     TabView {
                         
                         ForEach(paths) { path in
@@ -49,7 +44,6 @@ struct HomeView: View {
 }
 
 struct HomeView_Previews: PreviewProvider {
-    
     static var previews: some View {
         HomeView()
     }

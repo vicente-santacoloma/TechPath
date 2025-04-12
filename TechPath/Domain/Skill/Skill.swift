@@ -8,7 +8,6 @@
 import Foundation
 
 class Skill: ObservableObject, Codable, Nameable, Imageable {
-    
     typealias Category = String
 
     let name: String
@@ -80,7 +79,6 @@ extension Skill: Quantifiable {
 }
 
 //extension CategorySkills: Equatable {
-//
 //    static func == (lhs: Self, rhs: Self) -> Bool {
 //        lhs.category == rhs.category && lhs.skills.elementsEqual(rhs.skills)
 //    }
@@ -88,14 +86,12 @@ extension Skill: Quantifiable {
 
 
 //extension Skill: Equatable {
-//
 //    static func == (lhs: Self, rhs: Self) -> Bool {
 //        lhs.name == rhs.name && lhs.hasCompleted == rhs.hasCompleted && lhs.progress == rhs.progress && lhs.topics.elementsEqual(rhs.topics)
 //    }
 //}
 
 //extension Skill.Topic: Equatable {
-//
 //    static func == (lhs: Self, rhs: Self) -> Bool {
 //        lhs.name == rhs.name && lhs.hasCompleted == rhs.hasCompleted
 //    }

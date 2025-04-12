@@ -8,7 +8,6 @@
 import Foundation
 
 class DataSource {
-    
     static let shared = DataSource()
     
     private static let bundle: Bundle = .main
@@ -28,7 +27,7 @@ class DataSource {
         return categoryPaths
     }()
     
-    lazy  var categorySkills: [CategorySkills] = {
+    lazy var categorySkills: [CategorySkills] = {
         var categorySkills = [CategorySkills]()
         let skillsByCategory = skillsByCategory
         
@@ -40,7 +39,7 @@ class DataSource {
         return categorySkills
     }()
 
-    lazy  var pathsByCategory: [Path.Category: [Path]] = {
+    lazy var pathsByCategory: [Path.Category: [Path]] = {
         
         var pathsByCategory = [Path.Category: [Path]]()
         
@@ -53,11 +52,9 @@ class DataSource {
     }()
     
     lazy var pathsByName: [String: Path] = {
-       
         var paths = [String: Path]()
         
         return Self.shared.pathCategories.reduce(paths) { partialResult, category in
-            
             var partialResult = partialResult
             var paths: [Path] = Self.bundle.decode("\(category).json")
             
@@ -67,7 +64,6 @@ class DataSource {
                 let file = "\(path.name).json"
                 
                 if Self.bundle.url(forResource: file, withExtension: nil) != nil {
-                    
                     let skillNamesByCategory: [Skill.Category: [String]] = Self.bundle.decode(file)
                     
                     let categorySkills: [CategorySkills] = skillNamesByCategory.map { category, skillNames in
@@ -90,8 +86,7 @@ class DataSource {
         }
     }()
     
-    lazy  var skillsByCategory: [Skill.Category: [Skill]] = {
-        
+    lazy var skillsByCategory: [Skill.Category: [Skill]] = {
         var skillsByCategory = [Skill.Category: [Skill]]()
         
         for category in skillCategories {
@@ -103,11 +98,9 @@ class DataSource {
     }()
     
     lazy var skillsByName: [String: Skill] = {
-
         var skills = [String: Skill]()
         
         return Self.shared.skillCategories.reduce(skills) { partialResult, category in
-
             var partialResult = partialResult
             var skills: [Skill] = Self.bundle.decode("\(category).json")
             

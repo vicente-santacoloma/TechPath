@@ -10,7 +10,6 @@ import Foundation
 extension Skill {
     
     class Resource: ObservableObject, Codable, Nameable, Imageable {
-        
         let name: String
         let imageName: String?
         let url: URL?
@@ -20,7 +19,6 @@ extension Skill {
         }
         
         required init(from decoder: Decoder) throws {
-            
             let container = try decoder.container(keyedBy: CodingKeys.self)
             
             name = try container.decode(String.self, forKey: .name)
@@ -29,7 +27,6 @@ extension Skill {
         }
         
         func encode(to encoder: Encoder) throws {
-            
             var container = encoder.container(keyedBy: CodingKeys.self)
 
             try container.encode(name, forKey: .name)

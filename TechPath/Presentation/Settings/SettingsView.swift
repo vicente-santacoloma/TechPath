@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct SettingsView: View {
-    
     var body: some View {
-        
         NavigationView {
-            
             GeometryReader { geometry in
                 
             }
@@ -24,7 +21,6 @@ struct SettingsView: View {
 }
 
 struct SettingsView_Previews: PreviewProvider {
-    
     static var previews: some View {
         SettingsView()
     }

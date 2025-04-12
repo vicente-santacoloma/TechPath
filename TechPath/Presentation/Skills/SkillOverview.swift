@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct SkillOverview: View {
-    
     @State var categorySkills: [CategorySkills]
     
     private let navigationTitle = "Skills"
     
     var body: some View {
-        
         NavigationView {
-                       
             GeometryReader { geometry in
-                
                 ScrollView {
-                    
                     LazyVStack(alignment: .leading, spacing: 24) {
                 
                         ElementsOverview(
@@ -40,10 +35,7 @@ struct SkillOverview: View {
     }
 }
 
-
-
 //struct SkillOverview_Previews: PreviewProvider {
-//    
 //    static var previews: some View {
 //        SkillOverview()
 //    }

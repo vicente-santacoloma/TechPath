@@ -13,7 +13,6 @@ protocol Nameable {
 }
 
 extension Nameable {
-    
     var initial: String {
         String(name.prefix(1))
     }

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ProgressBar: View {
-    
     var progress: Double
     
     private let percentFormat: FloatingPointFormatStyle<Double>.Percent = .percent.precision(.fractionLength(0))
@@ -17,13 +16,9 @@ struct ProgressBar: View {
     private let cornerRadius: CGFloat = 10
     
     var body: some View {
-        
         GeometryReader { geometry in
-        
             ZStack(alignment: .center) {
-            
                 ZStack(alignment: .leading) {
-                    
                     Rectangle()
                         .frame(width: geometry.size.width, height: geometry.size.height)
                         .opacity(opacity)
@@ -45,7 +40,6 @@ struct ProgressBar: View {
 }
 
 struct ProgressBar_Previews: PreviewProvider {
-
     static var previews: some View {
 
         ProgressBar(progress: 0.5)

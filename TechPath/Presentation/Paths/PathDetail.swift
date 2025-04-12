@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct PathDetail: View {
-    
     @ObservedObject var path: Path
     
     private let percentFormat: FloatingPointFormatStyle<Double>.Percent = .percent.precision(.fractionLength(0))
     
     var body: some View {
-        
         GeometryReader { geometry in
-            
             ScrollView {
-                
                 LazyVStack(alignment: .leading, spacing: 24) {
-                    
                     HeroView(
                         element: path,
                         progress: path.progress,
@@ -28,7 +23,6 @@ struct PathDetail: View {
                     )
 
                     if let about = path.about, !about.isEmpty {
-                        
                         Divider()
                         
                         makeAboutSection(text: about)
@@ -37,7 +31,6 @@ struct PathDetail: View {
                     let categorySkills = path.categorySkills
                     
                     if !categorySkills.isEmpty {
-                        
                         Divider()
                         
                         makeProgressChart(categorySkills: categorySkills, geometry: geometry)
@@ -46,7 +39,6 @@ struct PathDetail: View {
                     }
 
                     if let badges = path.badges, !badges.isEmpty {
-                    
                         Divider()
                         
                         makeBadgesSection(badges: badges)
@@ -75,7 +67,6 @@ struct PathDetail: View {
     }
     
     @ViewBuilder private func makeProgressChart(categorySkills: [CategorySkills], geometry: GeometryProxy) -> some View {
-        
         Section {
             ProgressRingsChart(data: categorySkills.map({ ("\($0.category) (\(percentFormat.format($0.progress)))", $0.progress * 100) }), geometry: geometry)
                 .foregroundColor(.darkBackground)
@@ -87,7 +78,6 @@ struct PathDetail: View {
     }
     
     @ViewBuilder private func makeSkillsSection(categorySkills: [CategorySkills], geometry: GeometryProxy) -> some View {
-
         ElementsOverview(
             navigationTitle: "",
             sectionElements: categorySkills,
@@ -97,7 +87,6 @@ struct PathDetail: View {
     }
     
     @ViewBuilder private func makeBadgesSection(badges: [Path.Badge]) -> some View {
-        
         Section {
             BadgesView(badges: badges)
         } header: {
@@ -113,11 +102,9 @@ struct PathDetail: View {
 }
 
 struct PathDetail_Previews: PreviewProvider {
-    
     private static let repository: Repository = LocalRepository()
     
     static var previews: some View {
-        
         let categoryPaths = Self.repository.getCategoryPaths()[0]
         let path = categoryPaths.paths[0]
         

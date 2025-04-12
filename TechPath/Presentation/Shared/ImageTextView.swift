@@ -8,19 +8,15 @@
 import SwiftUI
 
 struct ImageTextView: View {
-    
     let text: String
     let systemName: String?
     var imageSize: CGFloat = 40
     
     var body: some View {
-        
         VStack(alignment: .center, spacing: 24) {
-            
             Spacer()
             
             if let systemName = systemName {
-                
                 Image(systemName: systemName)
                     .font(.system(size: imageSize))
                     .foregroundColor(.yellow)
@@ -39,7 +35,6 @@ struct ImageTextView: View {
 }
 
 struct ImageTextView_Previews: PreviewProvider {
-    
     static var previews: some View {
         ImageTextView(text: "Hello World!", systemName: "star")
     }

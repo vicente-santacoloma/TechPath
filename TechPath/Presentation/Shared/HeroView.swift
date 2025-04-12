@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct HeroView<Element: Nameable & Imageable>: View {
-    
     let element: Element
     
     var progress: Double
@@ -18,9 +17,7 @@ struct HeroView<Element: Nameable & Imageable>: View {
     let spacing: CGFloat = 20
     
     var body: some View {
-           
         VStack(alignment: .center, spacing: spacing) {
-            
             if let imageName = element.imageName, !imageName.isEmpty {
                 Image(imageName)
                     .scaled()
@@ -43,7 +40,6 @@ struct HeroView<Element: Nameable & Imageable>: View {
 }
 
 //struct HeroView_Previews: PreviewProvider {
-//    
 //    static var previews: some View {
 //        HeroView()
 //    }

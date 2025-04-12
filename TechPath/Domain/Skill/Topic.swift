@@ -8,9 +8,7 @@
 import Foundation
 
 extension Skill {
-    
     struct Topic: Codable, Nameable {
-        
         let name: String
         var hasCompleted: Bool
         

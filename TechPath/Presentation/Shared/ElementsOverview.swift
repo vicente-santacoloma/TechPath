@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ElementsOverview<CategoryElements: Categorizable, Destination: View>: View {
-    
     let navigationTitle: String
     @State var sectionElements: [CategoryElements]
     let destination: ((CategoryElements.Element) -> Destination)
@@ -24,19 +23,14 @@ struct ElementsOverview<CategoryElements: Categorizable, Destination: View>: Vie
     private let percentFormat: FloatingPointFormatStyle<Double>.Percent = .percent.precision(.fractionLength(0))
     
     var body: some View {
-        
         ForEach(0..<sectionElements.count, id: \.self) { index in
-            
             Divider()
             
             makeSectionHeader(sectionElements: sectionElements[index])
             
             ScrollView(.horizontal, showsIndicators: false) {
-                
                 LazyHGrid(rows: rowGridItems(count: min(sectionElements[index].elements.count, numberRows)), spacing: 10) {
-                    
                     ForEach(sectionElements[index].elements) { element in
-                        
                         if refresh || !refresh {
                             NavigationLink(destination: destination(element)) {
                                 ImageTextCell(
@@ -75,13 +69,10 @@ struct ElementsOverview<CategoryElements: Categorizable, Destination: View>: Vie
 }
 
 struct Overview_Previews: PreviewProvider {
-
     private static let repository: Repository = LocalRepository()
     
     static var previews: some View {
-        
         GeometryReader { geometry in
-            
             ElementsOverview(
                 navigationTitle: "Paths",
                 sectionElements: Self.repository.getCategoryPaths(),

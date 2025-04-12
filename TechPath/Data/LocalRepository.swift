@@ -8,7 +8,6 @@
 import Foundation
 
 class LocalRepository: Repository {
-    
     private let dataSource = DataSource.shared
     
     private let bundle: Bundle = .main

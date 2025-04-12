@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct PathsOverview: View {
-    
     @State var categoryPaths: [CategoryPaths]
     
     private let navigationTitle = "Paths"
     
     var body: some View {
-        
         NavigationView {
-                       
             GeometryReader { geometry in
-                
                 ScrollView {
-                    
                     LazyVStack(alignment: .leading, spacing: 24) {
                 
                         ElementsOverview(
@@ -41,7 +36,6 @@ struct PathsOverview: View {
 }
 
 //struct PathOverview_Previews: PreviewProvider {
-//    
 //    static var previews: some View {
 //        PathsOverview()
 //    }

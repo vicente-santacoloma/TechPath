@@ -8,7 +8,6 @@
 import Foundation
 
 class Path: ObservableObject, Codable, Nameable, Imageable {
-    
     typealias Category = String
     
     let name: String
@@ -69,7 +68,6 @@ extension Path: Quantifiable {
 }
 
 //extension Path: Equatable {
-//
 //    static func == (lhs: Self, rhs: Self) -> Bool {
 //        lhs.name == rhs.name && lhs.hasStarred == rhs.hasStarred
 //    }

@@ -6,7 +6,6 @@
 //
 
 enum Icon: String {
-    
     enum TabBar: String {
         case home = "house"
         case skills = "ellipsis.curlybraces"

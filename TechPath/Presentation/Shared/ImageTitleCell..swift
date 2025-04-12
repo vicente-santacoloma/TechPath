@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ImageTextCell: View {
-    
     let imageName: String?
     let text: String
     let detailText: String
@@ -18,9 +17,7 @@ struct ImageTextCell: View {
     private let cornerRadius: CGFloat = 10
     
     var body: some View {
-        
         HStack(alignment: .center, spacing: 10) {
-            
             if let imageName = imageName, !imageName.isEmpty {
                 Image(imageName)
                     .scaled()
@@ -46,7 +43,6 @@ struct ImageTextCell: View {
 }
 
 struct ImageTitleCell__Previews: PreviewProvider {
-    
     static var previews: some View {
         ImageTextCell(imageName: "Rust", text: "Rust Developer", detailText: "50%")
             .preferredColorScheme(.dark)

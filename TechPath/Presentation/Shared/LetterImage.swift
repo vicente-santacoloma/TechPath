@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct LetterImage: View {
-    
     let letter: String
     var size: CGFloat = 40
     var font: Font = .title2.bold()

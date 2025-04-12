@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 extension Image {
-    
     func scaled() -> some View {
         resizable().scaledToFit()
     }

@@ -8,7 +8,6 @@
 import Foundation
 
 protocol Repository {
-    
     func getPathCategories() -> [Path.Category]
     func getPath(by name: String) -> Path
     func getPaths(by category: Path.Category) -> [Path]

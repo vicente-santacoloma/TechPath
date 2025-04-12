@@ -6,7 +6,6 @@
 //
 
 enum Constants {
-    
     enum UserDefaults: String {
         case starredPaths
     }

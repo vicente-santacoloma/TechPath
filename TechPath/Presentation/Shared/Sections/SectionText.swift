@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SectionText: View {
-    
     let header: String
     let text: String
 

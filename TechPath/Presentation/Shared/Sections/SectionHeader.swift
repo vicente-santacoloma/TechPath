@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SectionHeader<Destination>: View where Destination: View {
-    
     let text: String
     let destination: Destination
     var showingSeeAll = true
@@ -31,7 +30,6 @@ struct SectionHeader<Destination>: View where Destination: View {
 }
 
 //struct SectionHeader_Previews: PreviewProvider {
-//    
 //    static var previews: some View {
 //        let category = PathCategory(name: "Mobile Development", paths: [
 //            Path(name: "iOS Developer", iconName: "apple"),
